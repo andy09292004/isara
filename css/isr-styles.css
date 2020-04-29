@@ -1,0 +1,159 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.seikyuu{
+  float: right;
+}
+.mein{
+  background-image: url("../morningsea.jpeg");
+  background-size: 600px;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  text-align: center;
+  background-position: right 10% bottom 10%;
+  height: 400px;
+  letter-spacing: 6px;
+  
+}
+
+h1{
+  font-size: medium;
+}
+h2{
+  font-size: small;
+}
+.orange{
+  background-color: rgb(221, 166, 62);
+  letter-spacing: 2px;
+  text-align: center;
+  color: #ffffff;
+  line-height: 40px;
+ 
+}
+.moji{
+  line-height: 40px;
+  
+}
+h3{
+  font-size: small;
+}
+.toiawaseback{
+  background-color: rgb(223, 112, 108);
+  border-radius: 20px; 
+-webkit-border-radius: 50px;
+-moz-border-radius: 10px;
+margin: 20px 40px;
+height: 80px;
+}
+/* 問い合わせの文字が上下の真ん中にこない */
+.toiawase a{
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  
+  color: #ffffff;
+
+  background-color: rgb(223, 112, 108);
+  border-radius: 20px; 
+-webkit-border-radius: 50px;
+-moz-border-radius: 10px;
+margin: 20px 40px;
+height: 100px;
+
+}
+.siroaka{
+  background-color: #fff;
+  color: red;
+  
+}
+.info{
+  letter-spacing: 2px;
+  text-align: center;
+  line-height: 30px;
+
+}
+h1{
+  font-size: 25px;
+  margin: 60px;
+}
+.tikara{
+  background: linear-gradient(transparent 50%, #ce9428 50%);
+}
+.info p{
+  margin: 1em 0px;
+  color: rgb(59, 58, 58);
+}
+/* カモメの画像 */
+.info img{
+  height: 50%;
+  width: 100%;
+}
+.about{
+  text-align: center;
+}
+h2{
+  font-size: 15px;
+  margin: 40px;
+}
+/* ノマド育成講座isaraとはの鍵かっこ */
+.box1{
+  position: relative;
+  padding:0.25em 1em;
+}
+.box1:before,.box19:after{ 
+  content:'';
+  width: 20px;
+  height: 30px;
+  position: absolute;
+  display: inline-block;
+}
+.box1:before{
+  border-left: solid 1px #ec9c24;
+  border-top: solid 1px #ec9c24;
+  top:100px
+  
+  ;
+  left: 0;
+}
+.box1:after{
+  border-right: solid 1px #ec9c24;
+  border-bottom: solid 1px #ec9c24;
+  bottom:0;
+  right: 0;
+}
+.box1 h1 {
+  margin: 0; 
+  padding: 0;
+}
+
+.left5{
+  float: left;
+ width: 200px;
+
+}
+.box2 {
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  font-weight: bold;
+  border: solid 3px #000000;
+
+    width: 1170px;
+    max-width: calc(100% - 40px);
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #fff;
+    border: 2px solid #ebb94d;
+    border-radius: 5px;
+}
+.box2 p {
+  margin: 0; 
+  padding: 0;
+}
+.teach{
+  text-align: center;
+  background-image: url(../IMG_7840.jpeg);
+}
